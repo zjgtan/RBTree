@@ -65,8 +65,6 @@ class RBTree(Tree):
         parent.color = 'BLACK'
         uncle.color = 'BLACK'
         grand.color = 'RED'
-        
-
 
     def _insert_case_2(self, node, parent, uncle, grand):
         self._left_rotate(parent)
